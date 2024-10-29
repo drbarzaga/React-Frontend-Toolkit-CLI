@@ -123,7 +123,7 @@ If you would like to contribute, please check out the [contributing guidelines](
 
 ## ❤️ Support
 
-If you find this collection helpful, please consider giving it a star ⭐ on GitHub. Your support is greatly appreciated!
+If you find this project interesting, please consider giving it a star ⭐ on GitHub. Your support is greatly appreciated!
 
 You can also support me by buying me a coffee:
 
@@ -146,42 +146,3 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - **LinkedIn**: [Dayan Perez](https://www.linkedin.com/in/drbarzaga/)
 
 We look forward to hearing from you!
-
-<!-- ## 🧩 Contributing
-
-We welcome contributions from the community! If you'd like to contribute, please follow these steps:
-
-1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page.
-2. **Clone Your Fork**: Clone your forked repository to your local machine.
-    ```bash
-    git clone https://github.com/your-username/React-Frontend-Toolkit-CLI.git
-    ```
-3. **Create a Branch**: Create a new branch for your feature or bugfix.
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-4. **Make Changes**: Make your changes to the codebase.
-5. **Commit Changes**: Commit your changes with a descriptive commit message.
-    ```bash
-    git commit -m "Add feature: your feature name"
-    ```
-6. **Push Changes**: Push your changes to your forked repository.
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-7. **Create a Pull Request**: Open a pull request to the main repository with a description of your changes.
-
-For more detailed instructions, please refer to our [Contributing Guide](https://github.com/drbarzaga/React-Frontend-Toolkit-CLI/blob/main/CONTRIBUTING.md).
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/drbarzaga/React-Frontend-Toolkit-CLI/blob/main/LICENSE) file for more details.
-
-## 📧 Contact
-
-If you have any questions, suggestions, or feedback, feel free to reach out to us:
-
-- **Email**: [contact@reactfrontendtoolkit.com](mailto:contact@reactfrontendtoolkit.com)
-- **GitHub Issues**: [Submit an issue](https://github.com/drbarzaga/React-Frontend-Toolkit-CLI/issues)
-
-We'd love to hear from you! -->
