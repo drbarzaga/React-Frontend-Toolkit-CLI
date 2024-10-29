@@ -33,12 +33,6 @@ Thank you for spreading the word!
 
 <div align="left" style="font-family: Roboto, sans-serif; font-size: 16px; line-height: 1.6;">
 
-A command-line tool designed to give developers quick access to a curated list of essential libraries and tools for frontend and React development, sourced from the [React Frontend Toolkit](https://github.com/drbarzaga/React-Frontend-Toolkit) repository. 🚀
-
-</div>
-
-<div align="left" style="font-family: Roboto, sans-serif; font-size: 16px; line-height: 1.6;">
-
 A command-line tool designed to give developers quick access to a curated list of essential libraries and tools for frontend and React development, sourced from the [React Frontend Toolkit](https://github.com/drbarzaga/React-Frontend-Toolkit) repository
 
 </div>
