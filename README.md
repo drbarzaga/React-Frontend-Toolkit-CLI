@@ -1,4 +1,4 @@
-# React Frontend Toolkit CLI
+# 🛠️ React Frontend Toolkit CLI
 
 <div align="center">
   
@@ -53,17 +53,23 @@ A command-line tool designed to give developers quick access to a curated list o
 
 To install the React Frontend Toolkit CLI, you can use npm or yarn:
 
-```bash
-# Using npm
-npm install -g react-frontend-toolkit-cli
+### Using npm
 
-# Using yarn
-yarn global add react-frontend-toolkit-cli
+```bash
+$ npm install -g react-frontend-toolkit-cli
+```
+
+> or
+
+### Using yarn
+
+```bash
+$ yarn global add react-frontend-toolkit-cli
 ```
 
 ## 📚 Usage
 
-Once installed, you can start using the CLI to find and access essential frontend libraries and tools. Here are some basic commands:
+Once installed, you can start using the CLI to find and access essential React libraries and tools. Here are some basic commands:
 
 ### List Available Categories
 
