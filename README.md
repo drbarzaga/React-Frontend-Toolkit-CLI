@@ -62,8 +62,6 @@ To install the React Frontend Toolkit CLI, you can use npm or yarn:
 $ npm install -g react-frontend-toolkit-cli
 ```
 
-> or
-
 ### Using yarn
 
 ```bash
