@@ -22,7 +22,7 @@ jobs:
           node-version: "20"
 
       - name: Install Dependencies
-        run: nvm use && npm install
+        run: npm install
 
       - name: Run Tests
         run: npm test
