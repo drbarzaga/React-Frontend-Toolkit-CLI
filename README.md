@@ -43,6 +43,10 @@ rft-cli <command> [options]
 rft-cli list
 ```
 
+<div align="center">
+  <img src="assets/demo-command-list.gif" alt="Demo Command List" />
+</div>
+
 - To get a list of recommended tools for a specific category, use the following command:
 
 ```bash
@@ -50,6 +54,10 @@ rft-cli get <category>
 ```
 
 Replace `<category>` with the desired category name, such as `charts`, `state management`, `forms`, etc.
+
+<div align="center">
+  <img src="assets/demo-command-get.gif" alt="Demo Command Get" />
+</div>
 
 ### Options
 

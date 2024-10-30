@@ -79,7 +79,7 @@ $ npm run test
 Once installed, you can start using the CLI to find and access essential React libraries and tools. Here are some basic commands:
 
 <div align="center">
-  <img src="assets/usage.png" alt="Screen Image" />
+  <img src="../assets/usage.png" alt="Screen Image" />
 </div>
 
 ### List Available Categories
