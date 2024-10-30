@@ -43,6 +43,12 @@ A command-line tool designed to give developers quick access to a curated list o
 - **Quick Access**: Access essential information about each library, including a brief description and direct link to its documentation.
 - **Easy to Use**: Simple commands to list available categories or get tools for a specific category, all from your command line.
 
+## 📺 Demo
+
+<div align="center">
+  <img src="assets/demo.gif" alt="Demo GIF" />
+</div>
+
 ## 🛠️ Installation
 
 To install the React Frontend Toolkit CLI, you can use npm or yarn:
