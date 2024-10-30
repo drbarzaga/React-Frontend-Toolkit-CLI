@@ -2,8 +2,6 @@ name: CI/CD Pipeline
 
 on:
   push:
-    tags:
-      - "v*.*.*"
     branches:
       - main
   pull_request:
@@ -57,19 +55,3 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish
-
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Cambios realizados en esta versión.
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
