@@ -67,6 +67,12 @@ $ npm install -g react-frontend-toolkit-cli
 $ yarn global add react-frontend-toolkit-cli
 ```
 
+## 🧪 Tests
+
+```bash
+$ npm run test
+```
+
 ## 📚 Usage
 
 Once installed, you can start using the CLI to find and access essential React libraries and tools. Here are some basic commands:
