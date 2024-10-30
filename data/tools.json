@@ -1,0 +1,58 @@
+{
+  "authentication": [],
+  "routing": [],
+  "drag-and-drop": [],
+  "tables": [],
+  "forms": [],
+  "hooks": [],
+  "notifications": [],
+  "state-management": [
+    {
+      "id": "zustand",
+      "name": "Zustand",
+      "description": "A small, fast, and scalable bearbones state-management solution.",
+      "url": "https://zustand-demo.pmnd.rs/"
+    },
+    {
+      "id": "redux-toolkit",
+      "name": "Redux Toolkit",
+      "description": "Official, recommended way to write Redux logic, with powerful and opinionated tools.",
+      "url": "https://redux-toolkit.js.org/"
+    }
+  ],
+  "styles": [],
+  "charts": [
+    {
+      "id": "recharts",
+      "name": "Recharts",
+      "description": "A composable charting library built on D3, designed for React.",
+      "url": "https://recharts.org/"
+    }
+  ],
+  "virtualization": [],
+  "ui-frameworks": [],
+  "icons": [],
+  "animations": [],
+  "maps": [],
+  "file-upload": [],
+  "real-time-communication": [],
+  "video-and-audio": [],
+  "seo": [],
+  "validations": [],
+  "graphQL": [],
+  "bundlers": [],
+  "linting-and-formatting": [],
+  "devTools": [],
+  "buildTools": [],
+  "testing": [],
+  "documentation": [],
+  "internationalization": [],
+  "performance-optimization": [],
+  "error-handling": [],
+  "code-splitting": [],
+  "hosting": [],
+  "api-clients-and-data-fetching": [],
+  "visual-studio-code-extensions": [],
+  "live-coding-tools": [],
+  "learning": []
+}
