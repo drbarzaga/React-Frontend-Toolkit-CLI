@@ -51,6 +51,9 @@ A command-line tool designed to give developers quick access to a curated list o
 
 ## 🛠️ Installation
 
+> [!WARNING]
+> This package requires Node.js LTS version 20.9.0 or higher. Please ensure you have the correct version installed before proceeding with the installation. We recommend to use NVM to handle different node versions.
+
 To install the React Frontend Toolkit CLI, you can use npm or yarn:
 
 ### Using npm
