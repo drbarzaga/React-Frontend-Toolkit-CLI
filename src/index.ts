@@ -1,8 +1,19 @@
 #!/usr/bin/env node
+import figlet from "figlet";
 import { Command } from "commander";
-import inquirer from "inquirer";
 import listCommand from "./commands/list";
 import getCommand from "./commands/get";
+import chalk from "chalk";
+
+console.log(
+  chalk.green.bold(
+    figlet.textSync("React Frontend Toolkit - CLI", {
+      font: "Standard",
+      horizontalLayout: "default",
+      verticalLayout: "default",
+    })
+  )
+);
 
 const program = new Command();
 
