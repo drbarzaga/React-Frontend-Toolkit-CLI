@@ -5,7 +5,8 @@
       "name": "Auth.js",
       "description": "Authentication for the Web. Free and open source.",
       "url": "https://authjs.dev/",
-      "github": "https://github.com/nextauthjs/next-auth"
+      "github": "https://github.com/nextauthjs/next-auth",
+      "commandToInstall": "npm install next-auth@beta"
     },
     {
       "id": "firebase-authentication",
@@ -18,7 +19,8 @@
       "name": "Auth0",
       "description": "A platform for securing access to your applications, devices, and users.",
       "url": "https://auth0.com/",
-      "github": "https://github.com/auth0"
+      "github": "https://github.com/auth0/auth0-react",
+      "commandToInstall": "npm install @auth0/auth0-react"
     },
     {
       "id": "okta",
@@ -39,14 +41,16 @@
       "name": "Supabase Auth",
       "description": "An open-source Firebase alternative that offers authentication services.",
       "url": "https://supabase.io/docs/guides/auth",
-      "github": "https://github.com/supabase/supabase/tree/master"
+      "github": "https://github.com/supabase/supabase/tree/master",
+      "commandToInstall": "npm install @supabase/supabase-js @supabase/auth-ui-react @supabase/auth-ui-shared"
     },
     {
       "id": "clerk",
       "name": "Clerk",
       "description": "Authentication and user management for modern applications.",
       "url": "https://clerk.dev/",
-      "github": "https://github.com/clerk"
+      "github": "https://github.com/clerk",
+      "commandToInstall": "npm install @clerk/clerk-react"
     },
     {
       "id": "magic",
