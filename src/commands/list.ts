@@ -81,7 +81,8 @@ export default function listCommand(program: Command) {
       } catch (error) {
         console.log(
           chalk.red.bold(
-            "💥 Oops! An error occurred while listing the categories. Please try again."
+            "💥 Oops! An error occurred while listing the categories. Please try again.",
+            error
           )
         );
       }
