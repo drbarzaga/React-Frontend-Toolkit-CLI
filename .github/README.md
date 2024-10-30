@@ -46,7 +46,7 @@ A command-line tool designed to give developers quick access to a curated list o
 ## 📺 Demo
 
 <div align="center">
-  <img src="assets/demo.gif" alt="Demo GIF" />
+  <img src="../assets/demo.gif" alt="Demo GIF" />
 </div>
 
 ## 🛠️ Installation
@@ -145,7 +145,7 @@ You can also support me by buying me a coffee:
 </div>
 
 <div align="center">
-  <img src="assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200" />
+  <img src="../assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200" />
 </div>
 
 ## ✉️ Contact

@@ -73,3 +73,7 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - **LinkedIn**: [Dayan Perez](https://www.linkedin.com/in/drbarzaga/)
 
 We look forward to hearing from you!
+
+## Start Us on Github
+
+If you find this project helpful, please consider giving it a star on [GitHub](https://github.com/drbarzaga/React-Frontend-Toolkit-CLI). Your support is greatly appreciated ❤️!

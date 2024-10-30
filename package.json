@@ -12,6 +12,10 @@
     "README.md",
     "data/tools.json"
   ],
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=6.0.0"
+  },
   "readme": "README.npm.md",
   "repository": {
     "type": "git",
