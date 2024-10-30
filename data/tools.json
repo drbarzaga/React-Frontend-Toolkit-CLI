@@ -1,8 +1,175 @@
 {
-  "authentication": [],
-  "routing": [],
-  "drag-and-drop": [],
-  "tables": [],
+  "authentication": [
+    {
+      "id": "auth.js",
+      "name": "Auth.js",
+      "description": "Authentication for the Web. Free and open source.",
+      "url": "https://authjs.dev/",
+      "github": "https://github.com/nextauthjs/next-auth"
+    },
+    {
+      "id": "firebase-authentication",
+      "name": "Firebase Authentication",
+      "description": "Provides backend services to help authenticate users in your app.",
+      "url": "https://firebase.google.com/docs/auth"
+    },
+    {
+      "id": "auth0",
+      "name": "Auth0",
+      "description": "A platform for securing access to your applications, devices, and users.",
+      "url": "https://auth0.com/",
+      "github": "https://github.com/auth0"
+    },
+    {
+      "id": "okta",
+      "name": "Okta",
+      "description": "A complete identity management solution for your web and mobile apps.",
+      "url": "https://developer.okta.com/docs/guides/sign-into-spa/react/before-you-begin/",
+      "github": "https://github.com/oktadev"
+    },
+    {
+      "id": "aws-amplify-auth",
+      "name": "AWS Amplify Auth",
+      "description": "Provides authentication APIs and building blocks for developers who want to create secure applications.",
+      "url": "https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/",
+      "github": "https://github.com/aws-amplify"
+    },
+    {
+      "id": "supabase-auth",
+      "name": "Supabase Auth",
+      "description": "An open-source Firebase alternative that offers authentication services.",
+      "url": "https://supabase.io/docs/guides/auth",
+      "github": "https://github.com/supabase/supabase/tree/master"
+    },
+    {
+      "id": "clerk",
+      "name": "Clerk",
+      "description": "Authentication and user management for modern applications.",
+      "url": "https://clerk.dev/",
+      "github": "https://github.com/clerk"
+    },
+    {
+      "id": "magic",
+      "name": "Magic",
+      "description": "Passwordless authentication solution for seamless user experiences.",
+      "url": "https://magic.link/",
+      "github": "https://github.com/magiclabs"
+    }
+  ],
+
+  "routing": [
+    {
+      "id": "wouter",
+      "name": "Wouter",
+      "description": "A minimalist alternative to React Router with a small footprint.",
+      "url": "https://npm.im/wouter",
+      "github": "https://github.com/molefrog/wouter"
+    },
+    {
+      "id": "tanstack-router",
+      "name": "Tanstack Router",
+      "description": "A powerful routing library for React applications.",
+      "url": "https://tanstack.com/router/latest",
+      "github": "https://github.com/tanstack/router"
+    },
+    {
+      "id": "react-router",
+      "name": "React Router",
+      "description": "The standard routing library for React applications.",
+      "url": "https://reactrouter.com/",
+      "github": "https://github.com/remix-run/react-router"
+    },
+    {
+      "id": "reach-router",
+      "name": "Reach Router",
+      "description": "A routing library with a focus on accessibility and simplicity.",
+      "url": "https://reach.tech/router",
+      "github": "https://github.com/reach/router"
+    }
+  ],
+
+  "drag-and-drop": [
+    {
+      "id": "dnd-kit",
+      "name": "DnDKit",
+      "description": "A lightweight, performant, accessible and extensible drag & drop toolkit for React.",
+      "url": "https://dndkit.com/",
+      "github": "https://github.com/clauderic/dnd-kit"
+    },
+    {
+      "id": "react-beautiful-dnd",
+      "name": "React Beautiful DnD",
+      "description": "A powerful and beautiful drag-and-drop library for lists with React.",
+      "url": "https://react-beautiful-dnd.netlify.app/",
+      "github": "https://github.com/atlassian/react-beautiful-dnd"
+    },
+    {
+      "id": "react-dnd",
+      "name": "React DnD",
+      "description": "A set of React utilities to help you build complex drag-and-drop interfaces.",
+      "url": "https://react-dnd.github.io/react-dnd/about",
+      "github": "https://github.com/react-dnd/react-dnd/"
+    },
+    {
+      "id": "sortable-js",
+      "name": "SortableJS",
+      "description": "A React wrapper for SortableJS, a library for reorderable drag-and-drop lists.",
+      "url": "https://sortablejs.github.io/react-sortablejs/",
+      "github": "https://github.com/SortableJS/react-sortablejs"
+    },
+    {
+      "id": "react-dragula",
+      "name": "React Dragula",
+      "description": "A drag-and-drop library for React based on Dragula.",
+      "url": "https://bevacqua.github.io/react-dragula/",
+      "github": "https://github.com/bevacqua/react-dragula"
+    }
+  ],
+
+  "tables": [
+    {
+      "id": "tanstack-table",
+      "name": "Tanstack Table",
+      "description": "A headless UI for building powerful tables and datagrids.",
+      "url": "https://tanstack.com/table/latest",
+      "github": "https://github.com/tanstack/table"
+    },
+    {
+      "id": "material-ui-table",
+      "name": "Material-UI Table",
+      "description": "Tables built with Material-UI, a popular React UI framework.",
+      "url": "https://mui.com/components/tables/",
+      "github": "https://github.com/mui/material-ui"
+    },
+    {
+      "id": "ag-grid",
+      "name": "AG Grid",
+      "description": "A feature-rich datagrid designed for the major JavaScript frameworks.",
+      "url": "https://www.ag-grid.com/react-data-grid/getting-started/",
+      "github": "https://github.com/ag-grid/ag-grid"
+    },
+    {
+      "id": "react-data-grid",
+      "name": "React Data Grid",
+      "description": "Excel-like grid component built with React.",
+      "url": "https://adazzle.github.io/react-data-grid/#/CommonFeatures",
+      "github": "https://github.com/adazzle/react-data-grid/tree/main"
+    },
+    {
+      "id": "griddle",
+      "name": "Griddle",
+      "description": "A simple grid component for use with React.",
+      "url": "https://griddlegriddle.github.io/Griddle/",
+      "github": "https://github.com/griddlegriddle/griddle"
+    },
+    {
+      "id": "react-virtualized",
+      "name": "React Virtualized",
+      "description": "A set of React components for efficiently rendering large lists and tabular data.",
+      "url": "https://bvaughn.github.io/react-virtualized/#/components/List",
+      "github": "https://github.com/bvaughn/react-virtualized"
+    }
+  ],
   "forms": [],
   "hooks": [],
   "notifications": [],
