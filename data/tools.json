@@ -11,7 +11,9 @@
       "id": "zustand",
       "name": "Zustand",
       "description": "A small, fast, and scalable bearbones state-management solution.",
-      "url": "https://zustand-demo.pmnd.rs/"
+      "url": "https://zustand-demo.pmnd.rs/",
+      "github": "https://github.com/pmndrs/zustand",
+      "commandToInstall": "npm i zustand"
     },
     {
       "id": "redux-toolkit",

@@ -29,14 +29,18 @@ const showTools = (categories: string[]) => {
       );
 
       tools.forEach((tool: Tool) => {
-        console.log(`  ${chalk.bgGray.black(` ${tool.name} `)}`);
+        console.log(`  ${chalk.bgGray.black.bold(` ${tool.name} `)}`);
         console.log(`  Description: ${tool.description}`);
         console.log(`  URL: ${chalk.blue(tool.url)}`);
         if (tool.github) {
           console.log(`  GitHub: ${chalk.blue(tool.github)}`);
         }
         if (tool.commandToInstall) {
-          console.log(`  Install: ${chalk.green(tool.commandToInstall)}`);
+          console.log(
+            `  Install: ${chalk.bgGray.yellow.italic(
+              ` ${tool.commandToInstall} `
+            )}`
+          );
         }
         if (tool.tags) {
           console.log(`  Tags: ${tool.tags.join(", ")}`);

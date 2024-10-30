@@ -42,6 +42,7 @@
     "chalk": "^4.0.0",
     "commander": "^12.1.0",
     "figlet": "^1.8.0",
-    "inquirer": "^12.0.1"
+    "inquirer": "^12.0.1",
+    "terminal-link": "^2.0.0"
   }
 }

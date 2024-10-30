@@ -10,25 +10,40 @@ export default function getCommand(program: Command) {
     .alias("g")
     .action((category: string) => {
       const data = toolsData as ToolsData;
+
+      // Convert the received category to lowercase and replace spaces with hyphens
+      const userEnteredCategory = category;
+      category = category.toLowerCase().replace(/ /g, "-");
+
       const tools = data[category];
       if (tools) {
-        console.log(chalk.green(`Tools for <${category}> category:`));
-        tools.forEach((tool) => {
-          console.log(chalk.blue(`\nName: ${tool.name}`));
-          console.log(chalk.blue(`Description: ${tool.description}`));
+        console.log(
+          chalk.bgGray.green.bold(
+            ` React Tools for ${userEnteredCategory} category: `
+          )
+        );
+        console.log("");
+        tools.forEach((tool, index) => {
+          console.log(`  ${chalk.bgGray.black.bold(` ${tool.name} `)}`);
+          console.log(`  Description: ${tool.description}`);
           if (tool.url) {
-            console.log(chalk.blue(`URL: ${tool.url}`));
+            console.log(`  URL: ${chalk.blue(tool.url)}`);
           }
           if (tool.github) {
-            console.log(chalk.blue(`GitHub: ${tool.github}`));
+            console.log(`  GitHub: ${chalk.blue(tool.github)}`);
           }
           if (tool.commandToInstall) {
             console.log(
-              chalk.green(`Command to install: ${tool.commandToInstall}`)
+              `  Install: ${chalk.bgGray.yellow.italic(
+                ` ${tool.commandToInstall} `
+              )}`
             );
           }
           if (tool.tags) {
-            console.log(chalk.blue(`Tags: ${tool.tags.join(", ")}`));
+            console.log(`Tags: ${chalk.blue(tool.tags.join(", "))}`);
+          }
+          if (index !== tools.length - 1) {
+            console.log("");
           }
         });
       } else {
