@@ -231,10 +231,35 @@
       "url": "https://usehooks.com/",
       "github": "https://github.com/uidotdev/usehooks",
       "commandToInstall": "npm i @uidotdev/usehooks"
+    },
+    {
+      "id": "react-use",
+      "name": "React Use",
+      "description": "A library of essential React hooks.",
+      "url": "https://github.com/streamich/react-use",
+      "github": "https://github.com/streamich/react-use"
+    },
+    {
+      "id": "ahooks",
+      "name": "AHooks",
+      "description": "A set of high-quality and reliable React hooks.",
+      "url": "https://ahooks.js.org/",
+      "github": "https://github.com/alibaba/hooks",
+      "commandToInstall": "npm install --save ahooks"
     }
   ],
 
-  "notifications": [],
+  "notifications": [
+    {
+      "id": "sonner",
+      "name": "Sonner",
+      "description": "An opinionated toast component for React.",
+      "url": "https://sonner.emilkowal.ski/",
+      "github": "https://github.com/emilkowalski/sonner",
+      "commandToInstall": "npm install sonner"
+    }
+  ],
+
   "state-management": [
     {
       "id": "zustand",
@@ -245,24 +270,233 @@
       "commandToInstall": "npm i zustand"
     },
     {
+      "id": "tanstack-store",
+      "name": "Tanstack Store",
+      "description": "A powerful state management library for React applications.",
+      "url": "https://tanstack.com/store/latest",
+      "github": "https://github.com/tanstack/store",
+      "commandToInstall": "npm install @tanstack/react-store"
+    },
+    {
       "id": "redux-toolkit",
       "name": "Redux Toolkit",
       "description": "Official, recommended way to write Redux logic, with powerful and opinionated tools.",
-      "url": "https://redux-toolkit.js.org/"
+      "url": "https://redux-toolkit.js.org/",
+      "github": "https://github.com/reduxjs/redux-toolkit",
+      "commandToInstall": "npm install @reduxjs/toolkit"
+    },
+    {
+      "id": "recoil",
+      "name": "Recoil",
+      "description": "A state management library for React that makes it easy to share state across components.",
+      "url": "https://recoiljs.org/",
+      "github": "https://github.com/facebookexperimental/Recoil",
+      "commandToInstall": "npm install recoil"
     }
   ],
-  "styles": [],
+
+  "styles": [
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+      "url": "https://tailwindcss.com/",
+      "github": "https://github.com/tailwindlabs/tailwindcss",
+      "commandToInstall": "npm install -D tailwindcss"
+    },
+    {
+      "id": "styled-components",
+      "name": "Styled Components",
+      "description": "Utilizes tagged template literals to style your components.",
+      "url": "https://styled-components.com/",
+      "github": "https://github.com/styled-components",
+      "commandToInstall": "npm install styled-components"
+    },
+    {
+      "id": "emotion",
+      "name": "Emotion",
+      "description": "A performant and flexible CSS-in-JS library.",
+      "url": "https://emotion.sh/docs/introduction",
+      "github": "https://github.com/emotion-js/emotion",
+      "commandToInstall": "npm install --save @emotion/react"
+    }
+  ],
+
   "charts": [
     {
       "id": "recharts",
       "name": "Recharts",
-      "description": "A composable charting library built on D3, designed for React.",
-      "url": "https://recharts.org/"
+      "description": "A composable charting library built on React components.",
+      "url": "https://recharts.org/",
+      "github": "https://github.com/recharts/recharts",
+      "commandToInstall": "npm install recharts"
+    },
+    {
+      "id": "victory",
+      "name": "Victory",
+      "description": "A collection of composable React components for building interactive data visualizations.",
+      "url": "https://formidable.com/open-source/victory/",
+      "github": "https://github.com/FormidableLabs/victory",
+      "commandToInstall": "npm install victory"
+    },
+    {
+      "id": "nivo",
+      "name": "Nivo",
+      "description": "Provides a rich set of data visualization components, built on top of D3 and React.",
+      "url": "https://nivo.rocks/",
+      "github": "https://github.com/plouc/nivo",
+      "commandToInstall": "npm install @nivo/core"
+    },
+    {
+      "id": "chartjs",
+      "name": "Chart.js",
+      "description": "Simple yet flexible JavaScript charting for designers & developers.",
+      "url": "https://www.chartjs.org/",
+      "github": "https://github.com/chartjs/Chart.js",
+      "commandToInstall": "npm install chart.js"
+    },
+    {
+      "id": "react-vis",
+      "name": "React-Vis",
+      "description": "A collection of react components to render common data visualization charts.",
+      "url": "https://uber.github.io/react-vis/",
+      "github": "https://uber.github.io/react-vis/",
+      "commandToInstall": "npm install react-vis"
+    },
+    {
+      "id": "echarts-for-react",
+      "name": "ECharts for React",
+      "description": "A React wrapper for Apache ECharts.",
+      "url": "https://git.hust.cc/echarts-for-react/",
+      "github": "https://github.com/hustcc/echarts-for-react",
+      "commandToInstall": "npm install --save echarts-for-react"
+    },
+    {
+      "id": "visx",
+      "name": "Visx",
+      "description": "A collection of low-level visualization components for React.",
+      "url": "https://airbnb.io/visx/",
+      "github": "https://github.com/airbnb/visx/"
     }
   ],
-  "virtualization": [],
-  "ui-frameworks": [],
-  "icons": [],
+
+  "virtualization": [
+    {
+      "id": "virtua",
+      "name": "Virtua",
+      "description": "A virtual list and grid library for React.",
+      "url": "https://github.com/inokawa/virtua",
+      "github": "https://github.com/inokawa/virtua",
+      "commandToInstall": "npm install virtua"
+    },
+    {
+      "id": "tanstack-virtual",
+      "name": "Tanstack Virtual",
+      "description": "A powerful virtual list and grid library for React applications.",
+      "url": "https://tanstack.com/virtual/latest",
+      "github": "https://github.com/tanstack/virtual",
+      "commandToInstall": "npm install @tanstack/react-virtual"
+    }
+  ],
+
+  "ui-frameworks": [
+    {
+      "id": "shadcn-ui",
+      "name": "Shadcn UI",
+      "description": "A modern UI framework for building responsive and accessible web applications.",
+      "url": "https://ui.shadcn.com/",
+      "github": "https://github.com/shadcn-ui/ui"
+    },
+    {
+      "id": "chakra-ui",
+      "name": "Chakra UI",
+      "description": "A simple, modular, and accessible component library that gives you the building blocks to build your React applications.",
+      "url": "https://chakra-ui.com/",
+      "github": "https://github.com/chakra-ui/chakra-ui",
+      "commandToInstall": "npm i @chakra-ui/react"
+    },
+    {
+      "id": "mantine",
+      "name": "Mantine",
+      "description": "A fully featured React components library with native dark theme support.",
+      "url": "https://mantine.dev/",
+      "github": "https://github.com/mantinedev/mantine"
+    },
+    {
+      "id": "ant-design",
+      "name": "Ant Design",
+      "description": "A design system with values of Nature and Determinacy for better user experience of enterprise applications.",
+      "url": "https://ant.design/",
+      "github": "https://github.com/ant-design/ant-design",
+      "commandToInstall": "npm install antd"
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint",
+      "description": "A React-based UI toolkit for the web.",
+      "url": "https://blueprintjs.com/",
+      "github": "https://github.com/palantir/blueprint",
+      "commandToInstall": "npm install @blueprintjs/core"
+    }
+  ],
+
+  "icons": [
+    {
+      "id": "react-icons",
+      "name": "React Icons",
+      "description": "Include popular icons in your React projects easily.",
+      "url": "https://react-icons.github.io/react-icons/",
+      "github": "https://github.com/react-icons/react-icons",
+      "commandToInstall": "npm install react-icons --save"
+    },
+    {
+      "id": "font-awesome",
+      "name": "Font Awesome",
+      "description": "A comprehensive library of icons for use in web projects.",
+      "url": "https://fontawesome.com/",
+      "github": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    {
+      "id": "heroicons",
+      "name": "Heroicons",
+      "description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+      "url": "https://heroicons.com/",
+      "github": "https://github.com/tailwindlabs/heroicons",
+      "commandToInstall": "npm install @heroicons/react"
+    },
+    {
+      "id": "feather-icons",
+      "name": "Feather Icons",
+      "description": "Simply beautiful open-source icons.",
+      "url": "https://feathericons.com/",
+      "github": "https://github.com/feathericons/feather",
+      "commandToInstall": "npm install feather-icons"
+    },
+    {
+      "id": "ionicons",
+      "name": "Ionicons",
+      "description": "Premium icons for use in web, iOS, Android, and desktop apps.",
+      "url": "https://ionicons.com/",
+      "github": "https://github.com/ionic-team/ionicons",
+      "commandToInstall": "npm install ionicons"
+    },
+    {
+      "id": "material-icons",
+      "name": "Material Icons",
+      "description": "Material design icons by Google.",
+      "url": "https://material.io/resources/icons/",
+      "github": ""
+    },
+    {
+      "id": "bootstrap-icons",
+      "name": "Bootstrap Icons",
+      "description": "Official open-source SVG icon library for Bootstrap.",
+      "url": "https://icons.getbootstrap.com/",
+      "github": "https://github.com/twbs/icons",
+      "commandToInstall": "npm install bootstrap-icons"
+    }
+  ],
+
   "animations": [],
   "maps": [],
   "file-upload": [],
