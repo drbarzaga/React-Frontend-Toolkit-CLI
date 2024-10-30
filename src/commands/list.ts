@@ -1,11 +1,13 @@
 import { Command } from "commander";
 import { Tool, ToolsData } from "../../types/types";
 import chalk from "chalk";
-import { formatCategoryName } from "../utils";
-import toolsData from "../../data/tools.json";
+import { formatCategoryName, getToolsData } from "../utils";
 import inquirer from "inquirer";
 
-const showTools = (categories: string[]) => {
+const showTools = async (categories: string[]) => {
+  // Load the tools data
+  const toolsData = await getToolsData();
+
   // Check if all the categories tools are empty
   const allEmpty = categories.every(
     (category) => toolsData[category as keyof typeof toolsData].length === 0
@@ -58,6 +60,7 @@ export default function listCommand(program: Command) {
     .description("List all available categories of tools.")
     .action(async (options) => {
       try {
+        const toolsData = await getToolsData();
         const categories = Object.keys(toolsData) as (keyof ToolsData)[];
 
         // Allow selecting multiple categories

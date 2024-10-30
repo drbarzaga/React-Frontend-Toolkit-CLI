@@ -1,14 +1,15 @@
 import { Command } from "commander";
 import chalk from "chalk";
 import { ToolsData } from "../../types/types";
-import toolsData from "../../data/tools.json";
+import { getToolsData } from "../utils";
 
 export default function getCommand(program: Command) {
   program
     .command("get <category>")
     .description("Get tools for a specific category")
     .alias("g")
-    .action((category: string) => {
+    .action(async (category: string) => {
+      const toolsData = await getToolsData();
       const data = toolsData as ToolsData;
 
       // Convert the received category to lowercase and replace spaces with hyphens
