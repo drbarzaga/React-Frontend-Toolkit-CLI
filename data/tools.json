@@ -63,28 +63,32 @@
       "name": "Wouter",
       "description": "A minimalist alternative to React Router with a small footprint.",
       "url": "https://npm.im/wouter",
-      "github": "https://github.com/molefrog/wouter"
+      "github": "https://github.com/molefrog/wouter",
+      "commandToInstall": "npm i wouter"
     },
     {
       "id": "tanstack-router",
       "name": "Tanstack Router",
       "description": "A powerful routing library for React applications.",
       "url": "https://tanstack.com/router/latest",
-      "github": "https://github.com/tanstack/router"
+      "github": "https://github.com/tanstack/router",
+      "commandToInstall": "npm install @tanstack/react-router"
     },
     {
       "id": "react-router",
       "name": "React Router",
       "description": "The standard routing library for React applications.",
       "url": "https://reactrouter.com/",
-      "github": "https://github.com/remix-run/react-router"
+      "github": "https://github.com/remix-run/react-router",
+      "commandToInstall": "npm install react-router-dom"
     },
     {
       "id": "reach-router",
       "name": "Reach Router",
       "description": "A routing library with a focus on accessibility and simplicity.",
       "url": "https://reach.tech/router",
-      "github": "https://github.com/reach/router"
+      "github": "https://github.com/reach/router",
+      "commandToInstall": "npm install @reach/router"
     }
   ],
 
@@ -94,7 +98,8 @@
       "name": "DnDKit",
       "description": "A lightweight, performant, accessible and extensible drag & drop toolkit for React.",
       "url": "https://dndkit.com/",
-      "github": "https://github.com/clauderic/dnd-kit"
+      "github": "https://github.com/clauderic/dnd-kit",
+      "commandToInstall": "npm install @dnd-kit/core"
     },
     {
       "id": "react-beautiful-dnd",
@@ -108,21 +113,24 @@
       "name": "React DnD",
       "description": "A set of React utilities to help you build complex drag-and-drop interfaces.",
       "url": "https://react-dnd.github.io/react-dnd/about",
-      "github": "https://github.com/react-dnd/react-dnd/"
+      "github": "https://github.com/react-dnd/react-dnd/",
+      "commandToInstall": "npm install react-dnd react-dnd-html5-backend"
     },
     {
       "id": "sortable-js",
       "name": "SortableJS",
       "description": "A React wrapper for SortableJS, a library for reorderable drag-and-drop lists.",
       "url": "https://sortablejs.github.io/react-sortablejs/",
-      "github": "https://github.com/SortableJS/react-sortablejs"
+      "github": "https://github.com/SortableJS/react-sortablejs",
+      "commandToInstall": "npm install --save react-sortablejs sortablejs && npm install --save-dev @types/sortablejs"
     },
     {
       "id": "react-dragula",
       "name": "React Dragula",
       "description": "A drag-and-drop library for React based on Dragula.",
       "url": "https://bevacqua.github.io/react-dragula/",
-      "github": "https://github.com/bevacqua/react-dragula"
+      "github": "https://github.com/bevacqua/react-dragula",
+      "commandToInstall": "npm install react-dragula --save"
     }
   ],
 
@@ -132,46 +140,96 @@
       "name": "Tanstack Table",
       "description": "A headless UI for building powerful tables and datagrids.",
       "url": "https://tanstack.com/table/latest",
-      "github": "https://github.com/tanstack/table"
+      "github": "https://github.com/tanstack/table",
+      "commandToInstall": "npm install @tanstack/react-table"
     },
     {
       "id": "material-ui-table",
       "name": "Material-UI Table",
       "description": "Tables built with Material-UI, a popular React UI framework.",
       "url": "https://mui.com/components/tables/",
-      "github": "https://github.com/mui/material-ui"
+      "github": "https://github.com/mui/material-ui",
+      "commandToInstall": "npm install @mui/material @emotion/react @emotion/styled"
     },
     {
       "id": "ag-grid",
       "name": "AG Grid",
       "description": "A feature-rich datagrid designed for the major JavaScript frameworks.",
       "url": "https://www.ag-grid.com/react-data-grid/getting-started/",
-      "github": "https://github.com/ag-grid/ag-grid"
+      "github": "https://github.com/ag-grid/ag-grid",
+      "commandToInstall": "npm install --save ag-grid-community"
     },
     {
       "id": "react-data-grid",
       "name": "React Data Grid",
       "description": "Excel-like grid component built with React.",
       "url": "https://adazzle.github.io/react-data-grid/#/CommonFeatures",
-      "github": "https://github.com/adazzle/react-data-grid/tree/main"
+      "github": "https://github.com/adazzle/react-data-grid/tree/main",
+      "commandToInstall": "npm install react-data-grid"
     },
     {
       "id": "griddle",
       "name": "Griddle",
       "description": "A simple grid component for use with React.",
       "url": "https://griddlegriddle.github.io/Griddle/",
-      "github": "https://github.com/griddlegriddle/griddle"
+      "github": "https://github.com/griddlegriddle/griddle",
+      "commandToInstall": "npm install griddle-react"
     },
     {
       "id": "react-virtualized",
       "name": "React Virtualized",
       "description": "A set of React components for efficiently rendering large lists and tabular data.",
       "url": "https://bvaughn.github.io/react-virtualized/#/components/List",
-      "github": "https://github.com/bvaughn/react-virtualized"
+      "github": "https://github.com/bvaughn/react-virtualized",
+      "commandToInstall": "npm install react-virtualized --save"
     }
   ],
-  "forms": [],
-  "hooks": [],
+
+  "forms": [
+    {
+      "id": "react-hook-form",
+      "name": "React Hook Form",
+      "description": "Performant, flexible, and extensible forms with easy-to-use validation.",
+      "url": "https://react-hook-form.com/",
+      "github": "https://github.com/react-hook-form/react-hook-form",
+      "commandToInstall": "npm install react-hook-form"
+    },
+    {
+      "id": "tanstack-form",
+      "name": "Tanstack Form",
+      "description": "A powerful form library for React applications.",
+      "url": "https://tanstack.com/form/latest",
+      "github": "https://github.com/tanstack/form",
+      "commandToInstall": "npm i @tanstack/react-form"
+    },
+    {
+      "id": "formik",
+      "name": "Formik",
+      "description": "Build forms in React, without the tears.",
+      "url": "https://formik.org/",
+      "github": "https://github.com/jaredpalmer/formik",
+      "commandToInstall": "npm install formik --save"
+    }
+  ],
+
+  "hooks": [
+    {
+      "id": "novajs",
+      "name": "NovaJs",
+      "description": "A collection of dependency-free React hooks.",
+      "url": "https://novajs.co/",
+      "github": "https://github.com/novajslabs/nova.js"
+    },
+    {
+      "id": "use-hooks",
+      "name": "useHooks",
+      "description": "A collection of reusable React hooks.",
+      "url": "https://usehooks.com/",
+      "github": "https://github.com/uidotdev/usehooks",
+      "commandToInstall": "npm i @uidotdev/usehooks"
+    }
+  ],
+
   "notifications": [],
   "state-management": [
     {
