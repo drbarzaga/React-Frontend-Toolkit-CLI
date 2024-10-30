@@ -6,7 +6,7 @@ A command-line tool designed to give developers quick access to a curated list o
 
 > **Note:** Ensure you are using an LTS version of Node.js, recommended version 20.9.0.
 
-To install the React Frontend Toolkit CLI, you can use npm or yarn:
+To install the React Frontend Toolkit CLI, you can use npm, yarn or pnpm:
 
 ```bash
 npm install -g react-frontend-toolkit-cli
