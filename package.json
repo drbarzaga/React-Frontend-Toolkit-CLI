@@ -12,6 +12,10 @@
     "README.md",
     "data/tools.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drbarzaga/React-Frontend-Toolkit-CLI"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
