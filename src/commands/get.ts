@@ -35,9 +35,7 @@ export default function getCommand(program: Command) {
           }
           if (tool.commandToInstall) {
             console.log(
-              `  Install: ${chalk.bgGray.yellow.italic(
-                ` ${tool.commandToInstall} `
-              )}`
+              `  Install: ${chalk.bgGray.yellow(` ${tool.commandToInstall} `)}`
             );
           }
           if (tool.tags) {

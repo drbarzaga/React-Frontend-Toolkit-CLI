@@ -39,9 +39,7 @@ const showTools = async (categories: string[]) => {
         }
         if (tool.commandToInstall) {
           console.log(
-            `  Install: ${chalk.bgGray.yellow.italic(
-              ` ${tool.commandToInstall} `
-            )}`
+            `  Install: ${chalk.bgGray.yellow(` ${tool.commandToInstall} `)}`
           );
         }
         if (tool.tags) {

@@ -497,14 +497,205 @@
     }
   ],
 
-  "animations": [],
-  "maps": [],
-  "file-upload": [],
-  "real-time-communication": [],
-  "video-and-audio": [],
-  "seo": [],
-  "validations": [],
-  "graphQL": [],
+  "animations": [
+    {
+      "id": "framer-motion",
+      "name": "Framer Motion",
+      "description": "A production-ready motion library for React.",
+      "url": "https://www.framer.com/motion/",
+      "github": "https://github.com/framer/motion",
+      "commandToInstall": "npm install framer-motion"
+    },
+    {
+      "id": "react-spring",
+      "name": "React Spring",
+      "description": "A spring-physics-based animation library for React.",
+      "url": "https://react-spring.io/",
+      "github": "https://github.com/pmndrs/react-spring",
+      "commandToInstall": "npm install react-spring"
+    }
+  ],
+
+  "maps": [
+    {
+      "id": "react-leaflet",
+      "name": "React Leaflet",
+      "description": "A React wrapper for Leaflet, an open-source JavaScript library for mobile-friendly interactive maps.",
+      "url": "https://react-leaflet.js.org/",
+      "github": "https://github.com/PaulLeCam/react-leaflet",
+      "commandToInstall": "npm install react react-dom leaflet"
+    },
+    {
+      "id": "google-maps-react",
+      "name": "Google Maps React",
+      "description": "A library for embedding Google Maps into React applications.",
+      "url": "https://www.npmjs.com/package/google-maps-react",
+      "github": "https://github.com/fullstackreact/google-maps-react?tab=readme-ov-file",
+      "commandToInstall": "npm install --save google-maps-react"
+    }
+  ],
+
+  "file-upload": [
+    {
+      "id": "react-dropzone",
+      "name": "React Dropzone",
+      "description": "Simple HTML5 drag-and-drop zone with React.",
+      "url": "https://react-dropzone.js.org/",
+      "github": "https://github.com/react-dropzone/react-dropzone/",
+      "commandToInstall": "npm install --save react-dropzone"
+    },
+    {
+      "id": "uppy",
+      "name": "Uppy",
+      "description": "Sleek, modular file uploader for React.",
+      "url": "https://uppy.io/",
+      "github": "https://github.com/transloadit/uppy",
+      "commandToInstall": "npm install @uppy/react"
+    }
+  ],
+
+  "real-time-communication": [
+    {
+      "id": "socket-io",
+      "name": "Socket.IO",
+      "description": "Enables real-time, bidirectional and event-based communication.",
+      "url": "https://socket.io/",
+      "github": "https://github.com/socketio/socket.io",
+      "commandToInstall": "npm install socket.io-client"
+    },
+    {
+      "id": "pusher",
+      "name": "Pusher",
+      "description": "Provides hosted APIs to build real-time apps with WebSockets.",
+      "url": "https://pusher.com/",
+      "github": "https://github.com/pusher/pusher-js",
+      "commandToInstall": "npm install pusher-js"
+    }
+  ],
+
+  "video-and-audio": [
+    {
+      "id": "react-player",
+      "name": "React Player",
+      "description": "A React component for playing a variety of URLs, including YouTube, SoundCloud, and more.",
+      "url": "https://cookpete.com/react-player/",
+      "github": "https://github.com/CookPete/react-player",
+      "commandToInstall": "npm install react-player"
+    },
+    {
+      "id": "react-webcam",
+      "name": "React Webcam",
+      "description": "A React component for accessing the user's webcam.",
+      "url": "https://github.com/mozmorris/react-webcam",
+      "github": "https://github.com/mozmorris/react-webcam",
+      "commandToInstall": "npm install react-webcam"
+    },
+    {
+      "id": "react-sound",
+      "name": "React Sound",
+      "description": "A sound component to play audio in your React applications.",
+      "url": "https://github.com/leoasis/react-sound",
+      "github": "https://github.com/leoasis/react-sound",
+      "commandToInstall": "npm install react-sound --save"
+    }
+  ],
+
+  "seo": [
+    {
+      "id": "react-helmet",
+      "name": "React Helmet",
+      "description": "A reusable React component that manages changes to the document head.",
+      "url": "https://github.com/nfl/react-helmet",
+      "github": "https://github.com/nfl/react-helmet",
+      "commandToInstall": "npm install --save react-helmet"
+    },
+    {
+      "id": "react-meta-tags",
+      "name": "React Meta Tags",
+      "description": "A library for managing meta tags in React applications.",
+      "url": "https://www.npmjs.com/package/react-meta-tags",
+      "github": "https://github.com/s-yadav/react-meta-tags",
+      "commandToInstall": "npm install react-meta-tags --save"
+    },
+    {
+      "id": "next-seo",
+      "name": "Next SEO",
+      "description": "A plugin that makes managing SEO easier in Next.js projects.",
+      "url": "https://github.com/garmeeh/next-seo",
+      "github": "https://github.com/garmeeh/next-seo",
+      "commandToInstall": "npm install next-seo"
+    }
+  ],
+
+  "validations": [
+    {
+      "id": "yup",
+      "name": "Yup",
+      "description": "A JavaScript schema builder for value parsing and validation.",
+      "url": "https://www.npmjs.com/package/yup",
+      "github": "https://github.com/jquense/yup",
+      "commandToInstall": "npm install yup"
+    },
+    {
+      "id": "joi",
+      "name": "Joi",
+      "description": "A powerful schema description language and data validator for JavaScript.",
+      "url": "https://joi.dev/",
+      "github": "https://github.com/hapijs/joi",
+      "commandToInstall": "npm install joi"
+    },
+    {
+      "id": "validator",
+      "name": "Validator",
+      "description": "A library for string validation and sanitization.",
+      "url": "https://www.npmjs.com/package/validator",
+      "github": "https://github.com/validatorjs/validator.js",
+      "commandToInstall": "npm i validator"
+    },
+    {
+      "id": "superstruct",
+      "name": "Superstruct",
+      "description": "A simple and composable way to validate data in JavaScript and TypeScript.",
+      "url": "https://docs.superstructjs.org/",
+      "github": "https://github.com/ianstormtaylor/superstruct",
+      "commandToInstall": "npm install --save superstruct"
+    },
+    {
+      "id": "vest",
+      "name": "Vest",
+      "description": "A validations framework inspired by unit testing libraries.",
+      "url": "https://vestjs.dev/",
+      "github": "https://github.com/ealush/vest",
+      "commandToInstall": "npm install vest"
+    },
+    {
+      "id": "zod",
+      "name": "Zod",
+      "description": "A TypeScript-first schema declaration and validation library.",
+      "url": "https://zod.dev/",
+      "github": "https://github.com/colinhacks/zod",
+      "commandToInstall": "npm install zod"
+    }
+  ],
+
+  "graphQL": [
+    {
+      "id": "apollo-client",
+      "name": "Apollo Client",
+      "description": "A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.",
+      "url": "https://www.apollographql.com/docs/react/",
+      "github": "https://github.com/apollographql/apollo-client/tree/main",
+      "commandToInstall": "npm install @apollo/client graphql"
+    },
+    {
+      "id": "relay",
+      "name": "Relay",
+      "description": "A JavaScript framework for building data-driven React applications powered by GraphQL.",
+      "url": "https://relay.dev/",
+      "github": "https://github.com/facebook/relay"
+    }
+  ],
+
   "bundlers": [],
   "linting-and-formatting": [],
   "devTools": [],
