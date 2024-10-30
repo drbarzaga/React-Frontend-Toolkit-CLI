@@ -71,6 +71,10 @@ $ yarn global add react-frontend-toolkit-cli
 
 Once installed, you can start using the CLI to find and access essential React libraries and tools. Here are some basic commands:
 
+<div align="center">
+  <img src="assets/usage.png" alt="Screen Image" />
+</div>
+
 ### List Available Categories
 
 To list all available categories of tools and libraries:
