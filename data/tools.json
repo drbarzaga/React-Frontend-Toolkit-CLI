@@ -891,9 +891,93 @@
     }
   ],
 
-  "code-splitting": [],
-  "hosting": [],
-  "api-clients-and-data-fetching": [],
+  "code-splitting": [
+    {
+      "id": "loadable-components",
+      "name": "Loadable Components",
+      "description": "A library for code-splitting React components and loading them on demand.",
+      "url": "https://loadable-components.com/",
+      "github": "https://github.com/gregberge/loadable-components",
+      "commandToInstall": "npm install @loadable/component"
+    },
+    {
+      "id": "react-loadable",
+      "name": "React Loadable",
+      "description": "A higher order component for loading components with dynamic imports.",
+      "url": "https://www.npmjs.com/package/react-loadable",
+      "github": "https://github.com/jamiebuilds/react-loadable",
+      "commandToInstall": "npm install react-loadable"
+    }
+  ],
+
+  "hosting": [
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "A platform for frontend frameworks and static sites, built to integrate with your headless content, commerce, or database.",
+      "url": "https://vercel.com/"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "description": "A platform for automating modern web projects, with continuous deployment, serverless functions, and more.",
+      "url": "https://www.netlify.com/"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "description": "A platform developed by Google for creating mobile and web applications.",
+      "url": "https://firebase.google.com/"
+    },
+    {
+      "id": "aws-amplify",
+      "name": "AWS Amplify",
+      "description": "A set of tools and services that enables mobile and front-end web developers to build secure, scalable full-stack applications.",
+      "url": "https://aws.amazon.com/amplify/"
+    }
+  ],
+
+  "api-clients-and-data-fetching": [
+    {
+      "id": "axios",
+      "name": "Axios",
+      "description": "A promise-based HTTP client for the browser and Node.js.",
+      "url": "https://axios-http.com/",
+      "github": "https://github.com/axios/axios",
+      "commandToInstall": "npm install axios"
+    },
+    {
+      "id": "fetch-api",
+      "name": "Fetch API",
+      "description": "A modern interface for making HTTP requests in the browser.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+    },
+    {
+      "id": "swr",
+      "name": "SWR",
+      "description": "React Hooks library for remote data fetching.",
+      "url": "https://swr.vercel.app/",
+      "github": "https://github.com/vercel/swr",
+      "commandToInstall": "npm install swr"
+    },
+    {
+      "id": "tanstack-query",
+      "name": "Tanstack Query",
+      "description": "Powerful asynchronous state management, server-state utilities, and data fetching for TS/JS, React, Solid, Vue, Svelte, and more.",
+      "url": "https://tanstack.com/query/latest",
+      "github": "https://github.com/tanstack/query",
+      "commandToInstall": "npm install @tanstack/react-query"
+    },
+    {
+      "id": "graphql-request",
+      "name": "GraphQL Request",
+      "description": "A minimal GraphQL client for making requests to GraphQL endpoints.",
+      "url": "https://www.npmjs.com/package/graphql-request",
+      "github": "https://github.com/graffle-js/graffle",
+      "commandToInstall": "npm i graphql-request"
+    }
+  ],
+
   "visual-studio-code-extensions": [],
   "live-coding-tools": [],
   "learning": []
