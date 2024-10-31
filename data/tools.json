@@ -696,15 +696,201 @@
     }
   ],
 
-  "bundlers": [],
-  "linting-and-formatting": [],
-  "devTools": [],
-  "buildTools": [],
-  "testing": [],
-  "documentation": [],
-  "internationalization": [],
-  "performance-optimization": [],
-  "error-handling": [],
+  "bundlers": [
+    {
+      "id": "webpack",
+      "name": "Webpack",
+      "description": "A static module bundler for modern JavaScript applications.",
+      "url": "https://webpack.js.org/",
+      "github": "https://github.com/webpack/webpack",
+      "commandToInstall": "npm install --save-dev webpack"
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "description": "A next-generation frontend tooling that focuses on speed and performance.",
+      "url": "https://vitejs.dev/",
+      "github": "https://github.com/vitejs/vite",
+      "commandToInstall": "npm install vite"
+    },
+    {
+      "id": "parcel",
+      "name": "Parcel",
+      "description": "A zero-configuration build tool for the web.",
+      "url": "https://parceljs.org/",
+      "github": "https://github.com/parcel-bundler/parcel",
+      "commandToInstall": "npm install --save-dev parcel"
+    }
+  ],
+
+  "linting-and-formatting": [
+    {
+      "id": "eslint",
+      "name": "ESLint",
+      "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.",
+      "url": "https://eslint.org/",
+      "github": "https://github.com/eslint/eslint"
+    },
+    {
+      "id": "prettier",
+      "name": "Prettier",
+      "description": "An opinionated code formatter that supports many languages and integrates with most editors.",
+      "url": "https://prettier.io/",
+      "github": "https://github.com/prettier/prettier",
+      "commandToInstall": "npm install --save-dev --save-exact prettier"
+    }
+  ],
+
+  "devTools": [
+    {
+      "id": "react-devtools",
+      "name": "React Developer Tools",
+      "description": "Official React DevTools for inspecting React component hierarchy.",
+      "url": "https://react.dev/learn/react-developer-tools",
+      "github": "https://github.com/facebook/react/tree/main/packages/react-devtools"
+    },
+    {
+      "id": "redux-devtools",
+      "name": "Redux DevTools",
+      "description": "DevTools for Redux to help debug application state changes.",
+      "url": "https://redux.js.org/tutorials/fundamentals/part-4-store#redux-devtools",
+      "github": "https://github.com/reduxjs/redux-devtools?tab=readme-ov-file",
+      "commandToInstall": "npm install --save-dev redux-devtools-extension"
+    }
+  ],
+
+  "testing": [
+    {
+      "id": "jest",
+      "name": "Jest",
+      "description": "Delightful JavaScript Testing Framework with a focus on simplicity.",
+      "url": "https://jestjs.io/",
+      "github": "https://github.com/jestjs/jest",
+      "commandToInstall": "npm install --save-dev jest"
+    },
+    {
+      "id": "vitest",
+      "name": "Vitest",
+      "description": "A blazing fast unit test framework powered by Vite.",
+      "url": "https://vitest.dev/",
+      "github": "https://github.com/vitest-dev/vitest",
+      "commandToInstall": "npm install -D vitest"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "description": "End-to-end testing framework for web apps, with support for multiple browsers.",
+      "url": "https://playwright.dev/",
+      "github": "https://github.com/microsoft/playwright",
+      "commandToInstall": "npm init playwright@latest"
+    }
+  ],
+
+  "documentation": [
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "description": "A tool for UI development that allows you to create and test components in isolation.",
+      "url": "https://storybook.js.org/",
+      "github": "https://github.com/storybookjs/storybook",
+      "commandToInstall": "npx storybook@latest init"
+    },
+    {
+      "id": "docz",
+      "name": "Docz",
+      "description": "It makes it easy to write and publish beautiful interactive documentation for your code.",
+      "url": "https://www.docz.site/",
+      "github": "https://github.com/doczjs/docz",
+      "commandToInstall": "npm install docz"
+    },
+    {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "description": "A project for building, deploying, and maintaining open source project websites easily.",
+      "url": "https://docusaurus.io/",
+      "github": "https://github.com/facebook/docusaurus",
+      "commandToInstall": "npm init docusaurus@latest"
+    },
+    {
+      "id": "mdx",
+      "name": "MDX",
+      "description": "A format that lets you seamlessly use JSX in your Markdown documents.",
+      "url": "https://mdxjs.com/",
+      "github": "https://github.com/mdx-js/mdx/",
+      "commandToInstall": "npm install --save @mdx-js/react @mdx-js/mdx"
+    },
+    {
+      "id": "styleguidist",
+      "name": "Styleguidist",
+      "description": "Isolated React component development environment with a living style guide.",
+      "url": "https://react-styleguidist.js.org/",
+      "github": "https://github.com/styleguidist/react-styleguidist",
+      "commandToInstall": "npm install --save-dev react-styleguidist"
+    },
+    {
+      "id": "nextra",
+      "name": "Nextra",
+      "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
+      "url": "https://nextra.vercel.app/",
+      "github": "https://github.com/shuding/nextra"
+    }
+  ],
+
+  "internationalization": [
+    {
+      "id": "react-intl",
+      "name": "React Intl",
+      "description": "Internationalization library for React, part of FormatJS.",
+      "url": "https://formatjs.io/docs/react-intl/",
+      "github": "https://github.com/formatjs/formatjs"
+    },
+    {
+      "id": "i18next",
+      "name": "i18next",
+      "description": "A powerful internationalization framework for JavaScript, including React.",
+      "url": "https://www.i18next.com/",
+      "github": "https://github.com/i18next/i18next",
+      "commandToInstall": "npm i -S react react-intl"
+    }
+  ],
+
+  "performance-optimization": [
+    {
+      "id": "react-lazy-load",
+      "name": "React Lazy Load",
+      "description": "A library that helps you defer loading content in your React application until it becomes visible in the viewport.",
+      "url": "https://www.npmjs.com/package/react-lazy-load",
+      "github": "https://github.com/loktar00/react-lazy-load",
+      "commandToInstall": "npm i -S react-lazy-load"
+    },
+    {
+      "id": "react-window",
+      "name": "React Window",
+      "description": "A library for rendering large lists and tabular data efficiently.",
+      "url": "https://react-window.vercel.app/",
+      "github": "https://www.npmjs.com/package/react-window",
+      "commandToInstall": "npm install react-window"
+    }
+  ],
+
+  "error-handling": [
+    {
+      "id": "react-error-boundary",
+      "name": "React Error Boundary",
+      "description": "A React component that catches JavaScript errors anywhere in their child component tree, logs those errors, and displays a fallback UI.",
+      "url": "https://www.npmjs.com/package/react-error-boundary",
+      "github": "https://github.com/bvaughn/react-error-boundary"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "description": "A monitoring platform that helps you identify and fix issues in your React applications in real-time.",
+      "url": "https://sentry.io/",
+      "github": "",
+      "commandToInstall": "npm install @sentry/react @sentry/tracing"
+    }
+  ],
+
   "code-splitting": [],
   "hosting": [],
   "api-clients-and-data-fetching": [],
