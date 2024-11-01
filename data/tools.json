@@ -1,4 +1,42 @@
 {
+  "frameworks": [
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "description": "A React framework that enables server-side rendering and static site generation for building fast and SEO-friendly web applications.",
+      "url": "https://nextjs.org/",
+      "github": "https://github.com/vercel/next.js"
+    },
+    {
+      "id": "gatsby",
+      "name": "Gatsby",
+      "description": "A React-based open-source framework for creating fast, secure, and powerful websites using modern web technologies.",
+      "url": "https://www.gatsbyjs.com/",
+      "github": "https://github.com/gatsbyjs"
+    },
+    {
+      "id": "remix",
+      "name": "Remix",
+      "description": "A full stack web framework that lets you focus on the user interface and works seamlessly with React.",
+      "url": "https://remix.run/",
+      "github": "https://github.com/remix-run"
+    },
+    {
+      "id": "blitzjs",
+      "name": "Blitz.js",
+      "description": "A framework built on top of Next.js, providing a full-stack experience with a focus on developer productivity.",
+      "url": "https://blitzjs.com/",
+      "github": "https://github.com/blitz-js/blitz"
+    },
+    {
+      "id": "redwoodjs",
+      "name": "Redwood.js",
+      "description": "An opinionated, full-stack, serverless web application framework built on React, GraphQL, and Prisma.",
+      "url": "https://redwoodjs.com/",
+      "github": "https://github.com/redwoodjs/redwood"
+    }
+  ],
+
   "authentication": [
     {
       "id": "auth.js",
@@ -295,7 +333,7 @@
     }
   ],
 
-  "styles": [
+  "styling": [
     {
       "id": "tailwindcss",
       "name": "Tailwind CSS",
@@ -319,6 +357,14 @@
       "url": "https://emotion.sh/docs/introduction",
       "github": "https://github.com/emotion-js/emotion",
       "commandToInstall": "npm install --save @emotion/react"
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla Extract",
+      "description": "Zero-runtime stylesheets in TypeScript.",
+      "url": "https://vanilla-extract.style/",
+      "github": "https://github.com/vanilla-extract-css/vanilla-extract",
+      "commandToInstall": "npm install @vanilla-extract/css"
     }
   ],
 
@@ -437,6 +483,30 @@
       "url": "https://blueprintjs.com/",
       "github": "https://github.com/palantir/blueprint",
       "commandToInstall": "npm install @blueprintjs/core"
+    },
+    {
+      "id": "fluentui",
+      "name": "Fluent UI",
+      "description": "A collection of UX frameworks from Microsoft that help you build web apps that match the Microsoft Design Language.",
+      "url": "https://react.fluentui.dev/?path=/docs/concepts-introduction--docs",
+      "github": "https://github.com/microsoft/fluentui",
+      "commandToInstall": "yarn add @fluentui/react-components"
+    },
+    {
+      "id": "ariakit",
+      "name": "Ariakit",
+      "description": "A modern React UI library that helps you build fast, accessible, and responsive web applications.",
+      "url": "https://ariakit.org/",
+      "github": "https://github.com/ariakit/ariakit",
+      "commandToInstall": "npm install @ariakit/react"
+    },
+    {
+      "id": "react-email",
+      "name": "React Email",
+      "description": "A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript.",
+      "url": "https://react.email/",
+      "github": "https://github.com/resend/react-email",
+      "commandToInstall": "npx create-email@latest"
     }
   ],
 
@@ -783,6 +853,14 @@
       "url": "https://playwright.dev/",
       "github": "https://github.com/microsoft/playwright",
       "commandToInstall": "npm init playwright@latest"
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "url": "https://www.cypress.io/",
+      "github": "https://github.com/cypress-io/cypress",
+      "commandToInstall": "npm install cypress --save-dev"
     }
   ],
 
@@ -979,6 +1057,5 @@
   ],
 
   "visual-studio-code-extensions": [],
-  "live-coding-tools": [],
-  "learning": []
+  "live-coding-tools": []
 }

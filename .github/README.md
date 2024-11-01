@@ -1,4 +1,4 @@
-# 🛠️ React Frontend Toolkit CLI
+## 🛠️ React Frontend Toolkit CLI
 
 <div align="center">
   
@@ -10,11 +10,11 @@
 
 </div>
 
-## ⭐ Star Us on GitHub
+### ⭐ Star Us on GitHub
 
 If you find this project helpful or interesting, please consider giving it a star on GitHub. Your support motivates us to keep improving and adding new features!
 
-## 📢 Share
+### 📢 Share
 
 If you enjoyed this project, please share it with your friends and colleagues on social media:
 
@@ -29,7 +29,7 @@ If you enjoyed this project, please share it with your friends and colleagues on
 
 Thank you for spreading the word!
 
-## ℹ️ About
+### ℹ️ About
 
 <div align="left" style="font-family: Roboto, sans-serif; font-size: 16px; line-height: 1.6;">
 
@@ -37,19 +37,19 @@ A command-line tool designed to give developers quick access to a curated list o
 
 </div>
 
-## 🚀 Features
+### 🚀 Features
 
 - **Category Search**: Instantly find recommended libraries for specific categories like `charts`, `state management`, `forms`, `hooks`, `animations` and more.
 - **Quick Access**: Access essential information about each library, including a brief description and direct link to its documentation.
 - **Easy to Use**: Simple commands to list available categories or get tools for a specific category, all from your command line.
 
-## 📺 Demo
+### 📺 Demo
 
 <div align="center">
   <img src="../assets/demo.gif" alt="Demo GIF" />
 </div>
 
-## 🛠️ Installation
+### 🛠️ Installation
 
 > [!WARNING]
 > This package requires Node.js LTS version 20.9.0 or higher. Please ensure you have the correct version installed before proceeding with the installation. We recommend using a Node version manager like [NVM](https://github.com/nvm-sh/nvm) to easily switch between different Node.js versions.
@@ -74,7 +74,7 @@ pnpm add -g react-frontend-toolkit-cli
 $ npm run test
 ```
 
-## 📚 Usage
+### 📚 Usage
 
 Once installed, you can start using the CLI to find and access essential React libraries and tools. Here are some basic commands:
 
@@ -110,19 +110,19 @@ This command will display a list of recommended chart libraries along with brief
 
 For more detailed usage instructions, please refer to the [official documentation](https://github.com/drbarzaga/React-Frontend-Toolkit-CLI#readme).
 
-## 🧩 Contributing
+### 🧩 Contributing
 
 Contributions are welcome! If you have any libraries or tools that you think should be included in this collection, feel free to open an issue or submit a pull request.
 
-## 📃 License
+### 📃 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## ✨ Acknowledgements
+### ✨ Acknowledgements
 
 Special thanks to all the developers and contributors of this project. Your hard work and dedication make the React ecosystem better for everyone. We also extend our gratitude to those who have contributed to the development and improvement of this CLI tool. Your efforts are invaluable and greatly appreciated.
 
-## 🤝 Contributors
+### 🤝 Contributors
 
 Thanks to the following people who have contributed to this project:
 
@@ -132,7 +132,7 @@ Thanks to the following people who have contributed to this project:
 
 If you would like to contribute, please check out the [contributing guidelines](CONTRIBUTING.md).
 
-## ❤️ Support
+### ❤️ Support
 
 If you find this project interesting, please consider giving it a star ⭐ on GitHub. Your support is greatly appreciated!
 
@@ -148,7 +148,7 @@ You can also support me by buying me a coffee:
   <img src="../assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200" />
 </div>
 
-## ✉️ Contact
+### ✉️ Contact
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
