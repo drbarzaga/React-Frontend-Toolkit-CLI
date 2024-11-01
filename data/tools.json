@@ -173,6 +173,14 @@
       "url": "https://bevacqua.github.io/react-dragula/",
       "github": "https://github.com/bevacqua/react-dragula",
       "commandToInstall": "npm install react-dragula --save"
+    },
+    {
+      "id": "react-complex-tree",
+      "name": "React Complex Tree",
+      "description": "Unopinionated Accessible Tree Component with Multi-Select and Drag-And-Drop.",
+      "url": "https://rct.lukasbach.com/",
+      "github": "https://github.com/lukasbach/react-complex-tree",
+      "commandToInstall": "npm install react-complex-tree"
     }
   ],
 
@@ -439,6 +447,14 @@
       "description": "A collection of low-level visualization components for React.",
       "url": "https://airbnb.io/visx/",
       "github": "https://github.com/airbnb/visx/"
+    },
+    {
+      "id": "react-flow",
+      "name": "React Flow",
+      "description": "A customizable React component for building node-based editors and interactive diagrams.",
+      "url": "https://reactflow.dev/",
+      "github": "https://github.com/xyflow/xyflow",
+      "commandToInstall": "npm install @xyflow/react"
     }
   ],
 
