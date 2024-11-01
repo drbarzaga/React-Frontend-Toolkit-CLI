@@ -251,6 +251,22 @@
       "url": "https://formik.org/",
       "github": "https://github.com/jaredpalmer/formik",
       "commandToInstall": "npm install formik --save"
+    },
+    {
+      "id": "react-jsonschema-form",
+      "name": "React JSONSchema Form",
+      "description": "A React component for building Web forms from JSON Schema.",
+      "url": "https://rjsf-team.github.io/react-jsonschema-form/docs/",
+      "github": "https://github.com/rjsf-team/react-jsonschema-form",
+      "commandToInstall": "$ npm install @rjsf/core @rjsf/utils @rjsf/validator-ajv8 --save"
+    },
+    {
+      "id": "formily",
+      "name": "Formily",
+      "description": "Alibaba Group Unified Form Solution.",
+      "url": "https://formilyjs.org/",
+      "github": "https://github.com/alibaba/formily",
+      "commandToInstall": "$ npm install --save @formily/core"
     }
   ],
 
