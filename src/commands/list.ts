@@ -33,7 +33,7 @@ const showTools = async (categories: string[]) => {
       tools.forEach((tool: Tool) => {
         console.log(`  ${chalk.bgGray.black.bold(` ${tool.name} `)}`);
         console.log(`  Description: ${tool.description}`);
-        console.log(`  URL: ${chalk.blue(tool.url)}`);
+        console.log(`  WebSite: ${chalk.blue(tool.url)}`);
         if (tool.github) {
           console.log(`  GitHub: ${chalk.blue(tool.github)}`);
         }

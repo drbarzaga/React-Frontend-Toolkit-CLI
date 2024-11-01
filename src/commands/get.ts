@@ -28,7 +28,7 @@ export default function getCommand(program: Command) {
           console.log(`  ${chalk.bgGray.black.bold(` ${tool.name} `)}`);
           console.log(`  Description: ${tool.description}`);
           if (tool.url) {
-            console.log(`  URL: ${chalk.blue(tool.url)}`);
+            console.log(`  WebSite: ${chalk.blue(tool.url)}`);
           }
           if (tool.github) {
             console.log(`  GitHub: ${chalk.blue(tool.github)}`);
