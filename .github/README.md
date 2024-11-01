@@ -68,7 +68,7 @@ yarn global add react-frontend-toolkit-cli
 pnpm add -g react-frontend-toolkit-cli
 ```
 
-## 🧪 Run Tests in Development
+### 🧪 Run Tests in Development
 
 ```bash
 $ npm run test
