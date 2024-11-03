@@ -319,6 +319,54 @@
       "url": "https://sonner.emilkowal.ski/",
       "github": "https://github.com/emilkowalski/sonner",
       "commandToInstall": "npm install sonner"
+    },
+    {
+      "id": "react-toastify",
+      "name": "React Toastify",
+      "description": "A popular library for adding customizable and easy-to-use toast notifications to your React applications.",
+      "url": "https://fkhadra.github.io/react-toastify/introduction/",
+      "github": "https://github.com/fkhadra/react-toastify",
+      "commandToInstall": "npm install --save react-toastify"
+    },
+    {
+      "id": "notistack",
+      "name": "Notistack",
+      "description": "Highly customizable notification snackbars (toasts) that can be stacked on top of each other",
+      "url": "https://iamhosseindhv.com/notistack",
+      "github": "https://github.com/iamhosseindhv/notistack",
+      "commandToInstall": "npm install notistack"
+    },
+    {
+      "id": "reapop",
+      "name": "Reapop",
+      "description": "A simple and customizable React notifications system.",
+      "url": "https://reapop.dev/",
+      "github": "https://github.com/LouisBarranqueiro/reapop#documentation",
+      "commandToInstall": "npm install reapop --save"
+    },
+    {
+      "id": "react-hot-toast",
+      "name": "React Hot Toast",
+      "description": "A super easy toast library for React.",
+      "url": "https://react-hot-toast.com/",
+      "github": "https://github.com/timolins/react-hot-toast",
+      "commandToInstall": "npm install react-hot-toast"
+    },
+    {
+      "id": "react-notification-system",
+      "name": "React Notification System",
+      "description": "A complete and totally customizable component for notifications in React.",
+      "url": "https://igorprado.com/react-notification-system/",
+      "github": "https://github.com/igorprado/react-notification-system",
+      "commandToInstall": "npm install react-notification-system"
+    },
+    {
+      "id": "react-toast-notifications",
+      "name": "React Toast Notifications",
+      "description": "A toast notification system for react.",
+      "url": "https://jossmac.github.io/react-toast-notifications/",
+      "github": "https://github.com/jossmac/react-toast-notifications",
+      "commandToInstall": "npm install react-toast-notifications"
     }
   ],
 
@@ -486,12 +534,44 @@
       "github": "https://github.com/shadcn-ui/ui"
     },
     {
+      "id": "radix-ui",
+      "name": "Radix UI",
+      "description": "A collection of low-level UI components for building high-quality design systems and web apps.",
+      "url": "https://www.radix-ui.com/",
+      "github": "https://github.com/radix-ui/themes",
+      "commandToInstall": "npm install @radix-ui/react"
+    },
+    {
+      "id": "material-ui",
+      "name": "Material UI",
+      "description": "An open-source React component library that implements Google's Material Design.",
+      "url": "https://mui.com/material-ui/",
+      "github": "https://github.com/mui/material-ui",
+      "commandToInstall": "npm install @mui/material @emotion/react @emotion/styled"
+    },
+    {
+      "id": "nextui",
+      "name": "Next UI",
+      "description": "A modern design system for building beautiful React applications.",
+      "url": "https://nextui.org/",
+      "github": "https://github.com/nextui-org/nextui",
+      "commandToInstall": "npm install @nextui-org/react framer-motion"
+    },
+    {
+      "id": "evergreen",
+      "name": "Evergreen",
+      "description": "A React UI Framework for building ambitious products on the web.",
+      "url": "https://evergreen.segment.com/",
+      "github": "https://github.com/segmentio/evergreen/",
+      "commandToInstall": "npm install --save evergreen-ui"
+    },
+    {
       "id": "chakra-ui",
       "name": "Chakra UI",
       "description": "A simple, modular, and accessible component library that gives you the building blocks to build your React applications.",
       "url": "https://chakra-ui.com/",
       "github": "https://github.com/chakra-ui/chakra-ui",
-      "commandToInstall": "npm i @chakra-ui/react"
+      "commandToInstall": "npm install @chakra-ui/react"
     },
     {
       "id": "mantine",
@@ -531,6 +611,53 @@
       "url": "https://ariakit.org/",
       "github": "https://github.com/ariakit/ariakit",
       "commandToInstall": "npm install @ariakit/react"
+    },
+    {
+      "id": "native-base",
+      "name": "NativeBase",
+      "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
+      "url": "https://nativebase.io/",
+      "github": "https://github.com/GeekyAnts/nativebase"
+    },
+    {
+      "id": "react-bootstrap",
+      "name": "React Bootstrap",
+      "description": "Bootstrap components built with React.",
+      "url": "https://react-bootstrap.github.io/",
+      "github": "https://github.com/react-bootstrap/react-bootstrap",
+      "commandToInstall": "npm install react-bootstrap bootstrap"
+    },
+    {
+      "id": "grommet",
+      "name": "Grommet",
+      "description": "Build responsive and accessible mobile-first projects for the web with an easy to use component library.",
+      "url": "https://v2.grommet.io/",
+      "github": "https://github.com/grommet/grommet",
+      "commandToInstall": "npm install grommet styled-components --save"
+    },
+    {
+      "id": "reakit",
+      "name": "Reakit",
+      "description": "Toolkit for building accessible web apps with React.",
+      "url": "https://reakit.io/",
+      "github": "https://github.com/ariakit/ariakit",
+      "commandToInstall": "npm install @ariakit/react"
+    },
+    {
+      "id": "prime-react",
+      "name": "PrimeReact",
+      "description": "A comprehensive suite of customizable, feature-rich UI components.",
+      "url": "https://primereact.org/",
+      "github": "https://github.com/primefaces/primereact",
+      "commandToInstall": "npm install primereact"
+    },
+    {
+      "id": "headless-ui",
+      "name": "Headless UI",
+      "description": "A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+      "url": "https://headlessui.dev/",
+      "github": "https://github.com/tailwindlabs/headlessui",
+      "commandToInstall": "npm install @headlessui/react@latest"
     },
     {
       "id": "react-email",
