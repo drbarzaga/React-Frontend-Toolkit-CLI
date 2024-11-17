@@ -667,6 +667,14 @@
       "commandToInstall": "npm install flyonui"
     },
     {
+      "id": "daysiui",
+      "name": "DaysiUI",
+      "description": "The most popular component library for Tailwind CSS.",
+      "url": "https://daisyui.com/",
+      "github": "https://github.com/saadeghi/daisyui",
+      "commandToInstall": "npm i -D daisyui@latest"
+    },
+    {
       "id": "headless-ui",
       "name": "Headless UI",
       "description": "A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
