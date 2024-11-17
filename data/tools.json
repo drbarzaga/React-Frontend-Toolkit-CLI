@@ -525,7 +525,7 @@
     }
   ],
 
-  "ui-frameworks": [
+  "ui-components": [
     {
       "id": "shadcn-ui",
       "name": "Shadcn UI",
