@@ -652,6 +652,13 @@
       "commandToInstall": "npm install primereact"
     },
     {
+      "id": "zenui",
+      "name": "ZenUI",
+      "description": "An Tailwind CSS components library for any needs. Comes with UI examples & blocks, templates, Icons, Color Palette and more.",
+      "url": "https://zenui.net/",
+      "github": "https://github.com/Asfak00/zenui-library"
+    },
+    {
       "id": "headless-ui",
       "name": "Headless UI",
       "description": "A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
