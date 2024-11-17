@@ -550,6 +550,22 @@
       "commandToInstall": "npm install @mui/material @emotion/react @emotion/styled"
     },
     {
+      "id": "material-tailwind",
+      "name": "Material Tailwind",
+      "description": "An open-source library that uses the power of Tailwind CSS and React to help you build unique web projects faster and easier.",
+      "url": "https://www.material-tailwind.com/",
+      "github": "https://github.com/creativetimofficial/material-tailwind?ref=material-tailwind",
+      "commandToInstall": "npm i @material-tailwind/react"
+    },
+    {
+      "id": "flowbite-react",
+      "name": "Flowbite React",
+      "description": "An open-source UI component library built on top of Tailwind CSS with React components and based on the Flowbite Design System.",
+      "url": "https://flowbite.com/react",
+      "github": "https://github.com/themesberg/flowbite-react",
+      "commandToInstall": "npm create flowbite-react@latest"
+    },
+    {
       "id": "nextui",
       "name": "Next UI",
       "description": "A modern design system for building beautiful React applications.",
