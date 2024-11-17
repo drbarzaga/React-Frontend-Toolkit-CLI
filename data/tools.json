@@ -659,6 +659,14 @@
       "github": "https://github.com/Asfak00/zenui-library"
     },
     {
+      "id": "flyonui",
+      "name": "FlyonUI",
+      "description": "An open-source Tailwind CSS Components Library with semantic classes and powerful JS plugins.",
+      "url": "https://flyonui.com/",
+      "github": "https://github.com/themeselection/flyonui",
+      "commandToInstall": "npm install flyonui"
+    },
+    {
       "id": "headless-ui",
       "name": "Headless UI",
       "description": "A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
