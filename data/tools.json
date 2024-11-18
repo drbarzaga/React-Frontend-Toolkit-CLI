@@ -136,6 +136,14 @@
 
   "drag-and-drop": [
     {
+      "id": "swapy",
+      "name": "Swapy",
+      "description": "A framework-agnostic tool that converts any layout into a drag-to-swap one with just a few lines of code.",
+      "url": "https://swapy.tahazsh.com/",
+      "github": "https://github.com/TahaSh/swapy",
+      "commandToInstall": "pnpm install swapy"
+    },
+    {
       "id": "dnd-kit",
       "name": "DnDKit",
       "description": "A lightweight, performant, accessible and extensible drag & drop toolkit for React.",

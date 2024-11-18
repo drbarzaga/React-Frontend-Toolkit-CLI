@@ -1,6 +1,6 @@
 {
   "name": "react-frontend-toolkit-cli",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "A command-line tool designed to give developers quick access to a curated list of essential libraries and tools for frontend and React development, sourced from the React Frontend Toolkit repository",
   "main": "dist/index.js",
   "types": "types/types.d.ts",
