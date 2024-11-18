@@ -542,6 +542,13 @@
       "github": "https://github.com/shadcn-ui/ui"
     },
     {
+      "id": "eldoraui",
+      "name": "Eldora UI",
+      "description": "An open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion.",
+      "url": "https://www.eldoraui.site/",
+      "github": "https://github.com/karthikmudunuri/eldoraui"
+    },
+    {
       "id": "radix-ui",
       "name": "Radix UI",
       "description": "A collection of low-level UI components for building high-quality design systems and web apps.",
