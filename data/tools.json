@@ -413,6 +413,47 @@
     }
   ],
 
+  "data-fetching": [
+    {
+      "id": "axios",
+      "name": "Axios",
+      "description": "A promise-based HTTP client for the browser and Node.js.",
+      "url": "https://axios-http.com/",
+      "github": "https://github.com/axios/axios",
+      "commandToInstall": "npm install axios"
+    },
+    {
+      "id": "fetch-api",
+      "name": "Fetch API",
+      "description": "A modern interface for making HTTP requests in the browser.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+    },
+    {
+      "id": "swr",
+      "name": "SWR",
+      "description": "React Hooks library for remote data fetching.",
+      "url": "https://swr.vercel.app/",
+      "github": "https://github.com/vercel/swr",
+      "commandToInstall": "npm install swr"
+    },
+    {
+      "id": "tanstack-query",
+      "name": "Tanstack Query",
+      "description": "Powerful asynchronous state management, server-state utilities, and data fetching for TS/JS, React, Solid, Vue, Svelte, and more.",
+      "url": "https://tanstack.com/query/latest",
+      "github": "https://github.com/tanstack/query",
+      "commandToInstall": "npm install @tanstack/react-query"
+    },
+    {
+      "id": "graphql-request",
+      "name": "GraphQL Request",
+      "description": "A minimal GraphQL client for making requests to GraphQL endpoints.",
+      "url": "https://www.npmjs.com/package/graphql-request",
+      "github": "https://github.com/graffle-js/graffle",
+      "commandToInstall": "npm i graphql-request"
+    }
+  ],
+
   "styling": [
     {
       "id": "tailwindcss",
@@ -856,7 +897,7 @@
     }
   ],
 
-  "video-and-audio": [
+  "audio-and-video": [
     {
       "id": "react-player",
       "name": "React Player",
@@ -883,7 +924,7 @@
     }
   ],
 
-  "seo": [
+  "search-engine-optimization": [
     {
       "id": "react-helmet",
       "name": "React Helmet",
@@ -1225,47 +1266,6 @@
       "name": "AWS Amplify",
       "description": "A set of tools and services that enables mobile and front-end web developers to build secure, scalable full-stack applications.",
       "url": "https://aws.amazon.com/amplify/"
-    }
-  ],
-
-  "api-clients-and-data-fetching": [
-    {
-      "id": "axios",
-      "name": "Axios",
-      "description": "A promise-based HTTP client for the browser and Node.js.",
-      "url": "https://axios-http.com/",
-      "github": "https://github.com/axios/axios",
-      "commandToInstall": "npm install axios"
-    },
-    {
-      "id": "fetch-api",
-      "name": "Fetch API",
-      "description": "A modern interface for making HTTP requests in the browser.",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
-    },
-    {
-      "id": "swr",
-      "name": "SWR",
-      "description": "React Hooks library for remote data fetching.",
-      "url": "https://swr.vercel.app/",
-      "github": "https://github.com/vercel/swr",
-      "commandToInstall": "npm install swr"
-    },
-    {
-      "id": "tanstack-query",
-      "name": "Tanstack Query",
-      "description": "Powerful asynchronous state management, server-state utilities, and data fetching for TS/JS, React, Solid, Vue, Svelte, and more.",
-      "url": "https://tanstack.com/query/latest",
-      "github": "https://github.com/tanstack/query",
-      "commandToInstall": "npm install @tanstack/react-query"
-    },
-    {
-      "id": "graphql-request",
-      "name": "GraphQL Request",
-      "description": "A minimal GraphQL client for making requests to GraphQL endpoints.",
-      "url": "https://www.npmjs.com/package/graphql-request",
-      "github": "https://github.com/graffle-js/graffle",
-      "commandToInstall": "npm i graphql-request"
     }
   ],
 
