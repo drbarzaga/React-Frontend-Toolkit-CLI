@@ -552,6 +552,14 @@
       "url": "https://reactflow.dev/",
       "github": "https://github.com/xyflow/xyflow",
       "commandToInstall": "npm install @xyflow/react"
+    },
+    {
+      "id": "apache-echarts",
+      "name": "Apache ECharts",
+      "description": "A powerful, interactive charting and visualization library for the browser.",
+      "url": "https://echarts.apache.org/en/index.html",
+      "github": "https://github.com/apache/echarts",
+      "commandToInstall": "npm install echarts"
     }
   ],
 
@@ -612,6 +620,13 @@
       "url": "https://www.material-tailwind.com/",
       "github": "https://github.com/creativetimofficial/material-tailwind?ref=material-tailwind",
       "commandToInstall": "npm i @material-tailwind/react"
+    },
+    {
+      "id": "react-spectrum",
+      "name": "React Spectrum Libraries",
+      "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+      "url": "https://react-spectrum.adobe.com/",
+      "github": "https://github.com/adobe/react-spectrum"
     },
     {
       "id": "flowbite-react",
@@ -1202,6 +1217,22 @@
       "url": "https://react-window.vercel.app/",
       "github": "https://www.npmjs.com/package/react-window",
       "commandToInstall": "npm install react-window"
+    },
+    {
+      "id": "scan-react",
+      "name": "Scan React",
+      "description": "Scan for React performance issues and eliminate slow renders in your app.",
+      "url": "https://react-scan.million.dev/",
+      "github": "https://github.com/aidenybai/react-scan",
+      "commandToInstall": "npm install react-scan"
+    },
+    {
+      "id": "million",
+      "name": "Million",
+      "description": "A React performance tool that helps you identify and fix performance issues in your React applications.",
+      "url": "https://million.dev/",
+      "github": "https://github.com/aidenybai/million",
+      "commandToInstall": "npx million@latest"
     }
   ],
 
