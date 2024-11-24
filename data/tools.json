@@ -34,6 +34,21 @@
       "description": "An opinionated, full-stack, serverless web application framework built on React, GraphQL, and Prisma.",
       "url": "https://redwoodjs.com/",
       "github": "https://github.com/redwoodjs/redwood"
+    },
+    {
+      "id": "react-admin",
+      "name": "React Admin",
+      "description": "A React Framework for building B2B applications.",
+      "url": "https://marmelab.com/react-admin/",
+      "github": "https://github.com/marmelab/react-admin",
+      "commandToInstall": "npm install react-admin"
+    },
+    {
+      "id": "refine",
+      "name": "Refine",
+      "description": "A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "url": "https://refine.dev/",
+      "github": "https://github.com/refinedev/refine"
     }
   ],
 
