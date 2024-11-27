@@ -303,6 +303,14 @@
 
   "hooks": [
     {
+      "id": "usehooks-ts",
+      "name": "usehooks-ts",
+      "description": "A collection of React hooks written in TypeScript.",
+      "url": "https://usehooks-ts.com/",
+      "github": "https://github.com/juliencrn/usehooks-ts",
+      "commandToInstall": "npm install usehooks-ts"
+    },
+    {
       "id": "novajs",
       "name": "NovaJs",
       "description": "A collection of dependency-free React hooks.",
