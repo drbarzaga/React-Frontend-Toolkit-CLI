@@ -104,13 +104,6 @@
       "url": "https://clerk.dev/",
       "github": "https://github.com/clerk",
       "commandToInstall": "npm install @clerk/clerk-react"
-    },
-    {
-      "id": "magic",
-      "name": "Magic",
-      "description": "Passwordless authentication solution for seamless user experiences.",
-      "url": "https://magic.link/",
-      "github": "https://github.com/magiclabs"
     }
   ],
 
