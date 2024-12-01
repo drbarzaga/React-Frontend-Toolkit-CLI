@@ -197,6 +197,14 @@
       "url": "https://rct.lukasbach.com/",
       "github": "https://github.com/lukasbach/react-complex-tree",
       "commandToInstall": "npm install react-complex-tree"
+    },
+    {
+      "id": "formkit-drag-and-drop",
+      "name": "FormKit Drag and Drop",
+      "description": "A small library for adding data-first drag and drop sorting and transferring for lists in your app. It’s simple, flexible, framework agnostic, and clocks in at only ~4Kb gzipped.",
+      "url": "https://drag-and-drop.formkit.com/",
+      "github": "https://github.com/formkit/drag-and-drop",
+      "commandToInstall": "npm install @formkit/drag-and-drop"
     }
   ],
 
