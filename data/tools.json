@@ -584,6 +584,14 @@
       "url": "https://echarts.apache.org/en/index.html",
       "github": "https://github.com/apache/echarts",
       "commandToInstall": "npm install echarts"
+    },
+    {
+      "id": "unovis",
+      "name": "Unovis",
+      "description": "A modular data visualization framework for React, Angular, Svelte, Vue and Solid.",
+      "url": "https://unovis.dev/",
+      "github": "https://github.com/f5/unovis",
+      "commandToInstall": "npm install -P @unovis/ts @unovis/react"
     }
   ],
 
