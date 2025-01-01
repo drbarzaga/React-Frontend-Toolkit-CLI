@@ -592,6 +592,13 @@
       "url": "https://unovis.dev/",
       "github": "https://github.com/f5/unovis",
       "commandToInstall": "npm install -P @unovis/ts @unovis/react"
+    },
+    {
+      "id": "mermaid-js",
+      "name": "Mermaid JS",
+      "description": "JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.",
+      "url": "https://mermaid.js.org/",
+      "github": "https://github.com/mermaid-js/mermaid"
     }
   ],
 
